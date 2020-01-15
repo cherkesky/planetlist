@@ -21,7 +21,7 @@ spacecrafts = [
 
 for spacecraft in spacecrafts:
   counter = 0
-  for vessle in spacecraft:
-    print(f"the spaceship {vessle} has visited:") if counter == 0 else print (vessle)
+  for vessleOrPlanet in spacecraft:
+    print(f"the spaceship {vessleOrPlanet} has visited:") if counter == 0 else print (vessleOrPlanet)
     counter += 1
  
